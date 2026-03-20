@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        TF_VAR_gcp_project = "qwiklabs-gcp-04-49f22387a890"
-        TF_VAR_bucket = "tf-remote-state-student_02_d13ad8883828-1281-7603"
+        TF_VAR_gcp_project = "qwiklabs-gcp-03-edf56fa9aca7"
+        TF_VAR_bucket = "tf-remote-state-student_02_23da9b4301ab-867-23540-30985"
         REPOSITORY = "https://github.com/qa-instructor/sample-awx-project"
         TF_VAR_pubkey_path = "${WORKSPACE}/ansible_key.pub"
     }
